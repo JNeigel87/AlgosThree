@@ -1,0 +1,13 @@
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\bin\Debug\netcoreapp3.1\Algos3.exe
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\bin\Debug\netcoreapp3.1\Algos3.deps.json
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\bin\Debug\netcoreapp3.1\Algos3.runtimeconfig.json
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\bin\Debug\netcoreapp3.1\Algos3.runtimeconfig.dev.json
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\bin\Debug\netcoreapp3.1\Algos3.dll
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\bin\Debug\netcoreapp3.1\Algos3.pdb
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\obj\Debug\netcoreapp3.1\Algos3.csprojAssemblyReference.cache
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\obj\Debug\netcoreapp3.1\Algos3.AssemblyInfoInputs.cache
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\obj\Debug\netcoreapp3.1\Algos3.AssemblyInfo.cs
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\obj\Debug\netcoreapp3.1\Algos3.csproj.CoreCompileInputs.cache
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\obj\Debug\netcoreapp3.1\Algos3.dll
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\obj\Debug\netcoreapp3.1\Algos3.pdb
+C:\Users\TheNe\OneDrive\Desktop\Coding_Dojo\C#\Algos3\obj\Debug\netcoreapp3.1\Algos3.genruntimeconfig.cache

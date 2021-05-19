@@ -1,0 +1,116 @@
+Zach's example
+public void Add(string word)
+{
+    word = word.ToUpper();
+    string library = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    TNode runner = root;
+    for(int i = 0; i < word.Length; i++)
+    {
+        for( int c = 0; c < library.Length; c++)
+        {
+            if(library[c] == word[i])
+            {
+                if(runner.children[c] == null)
+                {
+                    runner.children[c] = new TNode();
+                }
+                runner = runner.children[c];
+                break;
+            }
+        }
+    }
+}
+
+public string autoComplete(string word)
+        {
+            word = word.ToLower();
+            string library = "abcdefghijklmnopqrstuvwxyz";
+            string stringRunner = word;
+
+
+            TNode runner = root;
+
+            for(int i = 0; i < word.Length; i++)
+            {
+                for(int c = 0; c < library.Length; c++)
+                {
+                    if(library[c] == word[i])
+                    {
+                        runner = runner.children[c];
+
+                        break;
+                    }
+                }
+            }
+            if (runner.isWord == true)
+            {
+                Console.WriteLine(word);
+            }
+            for(int i = 0; i < runner.children.Length; i++)
+            {
+                if ( runner.children[i] == null)
+                {
+                    continue;
+                }
+                else
+                {
+                    autoComplete(word + library[i]);
+                }
+            }
+            if (runner.isWord == true)
+            {
+                return word;
+            }
+            else 
+            {
+                return "";
+            }
+        }
+
+
+Shawn's code
+public class TNode
+{
+    public TNode[] children = new TNode[26];
+
+    public bool isWord;
+
+    public TNode()
+    {
+        isWord = false;
+        for(int i = 0; i < 26; i++)
+        {
+            children[i] = null;
+        }
+    }
+}
+
+    public class Trie
+    {
+        //Trie Setup
+        
+        public TNode root;
+
+        public Trie()
+        {
+            root = new TNode();
+        }
+
+        public void Insert(string word)
+        {
+            TNode current = root;
+            for(int i=0; i < word.Length; i++)
+            {
+                char character = word[i];
+                if(current.children[character-'a'] == null)
+                {
+                    current.children[character-''a'] = new TNode();
+                    Console.WriteLene(character);
+                }
+                current = current.children[character - 'a'];
+            }
+            Console.WriteLine(word);
+            current.isWord = true;
+            }
+        }
+    }
